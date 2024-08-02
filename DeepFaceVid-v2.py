@@ -83,7 +83,7 @@ if __name__ == '__main__':
         for i,frame in enumerate(frame_list):
             results.append(get_potraits(frame))
             if i%20==0:
-                st.write(f"...frame {i} processed")
+                st.write(f"... {i} frames processed")
             
         print(len(results))
 
