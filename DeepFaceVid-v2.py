@@ -26,7 +26,7 @@ def initialize(cap):
             break
         
         if count%fps==0:
-            frame = cv2.resize(frame, (640,360),interpolation=cv2.INTER_AREA)
+            frame = cv2.resize(frame, (360,360),interpolation=cv2.INTER_AREA)
             frame_list.append(frame)
           
     st.write("len of frame list",len(frame_list))
